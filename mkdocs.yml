@@ -1,12 +1,11 @@
 site_name: Alex Pryma
-site_url: https://alexpryma.github.io
+site_url: https://lostmedocule.github.io          # ← change to your real username or repo name
 site_author: Alex Pryma
 site_description: >-
-  Azure AI Solution Architect • Copilot Studio Expert • Senior Business Analyst • Zürich
+  Azure AI & Copilot Studio Expert • Senior Business Analyst • Zürich
 
 theme:
   name: material
-  custom_dir: overrides
   palette:
     - scheme: slate
       primary: indigo
@@ -29,39 +28,31 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
   icon:
     repo: fontawesome/brands/github
-    edit: material/pencil
-    view: material/eye
-  favicon: assets/images/favicon.png
+  favicon: https://github.com/favicon.ico   # simple fallback
 
-repo_url: https://github.com/alexpryma/alexpryma.github.io
-repo_name: alexpryma/alexpryma.github.io
+repo_url: https://github.com/lostmedocule/lostmed_blog   # ← change to your real repo
+repo_name: lostmedocule/lostmed_blog
 edit_uri: edit/main/docs/
 
 nav:
-  - 🏠 Home: index.md
-  - 📊 Case Studies:
+  - Home: index.md
+  - Case Studies:
       - 85% Faster Onboarding with Azure AI + Copilot: cases/onboarding-85.md
-      - From Idea to 32k CHF Bonus (Internal AI Product): cases/bonus-32k.md
-      - Confluence → Copilot Studio Migration Blueprint: cases/confluence-migration.md
-  - 🛠 Templates & Tools:
+      - From Idea to 32k CHF Bonus: cases/bonus-32k.md
+      - Confluence → Copilot Migration Blueprint: cases/confluence-migration.md
+  - Templates & Tools:
       - Azure AI & Copilot Cost-Benefit Calculator 2025: tools/cost-calculator.md
-      - RAG Evaluation Framework (Excel + Prompt Flow): tools/rag-evaluation.md
-      - Copilot Studio Agent Blueprint (YAML export): tools/copilot-agent-blueprint.md
-  - ✍️ Blog:
-      - Why Business Analysts Will Own Copilot Projects in 2026: blog/ba-copilot-2026.md
+      - RAG Evaluation Framework: tools/rag-evaluation.md
+  - Blog:
+      - Why BAs Will Own Copilot Projects in 2026: blog/ba-copilot-2026.md
       - Prompt Flow vs LangChain – Enterprise Reality Check: blog/promptflow-vs-langchain.md
-      - Copilot Studio Licensing & ROI Deep Dive 2025: blog/copilot-licensing-2025.md
-  - 📬 Contact: contact.md
+  - Contact: contact.md
 
 markdown_extensions:
   - attr_list
   - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -72,28 +63,12 @@ markdown_extensions:
 
 plugins:
   - search
-  - blog
-  - rss:
-      match_path: blog/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
 
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/alexpryma
+      link: https://www.linkedin.com/in/alexpryma   # ← change to your real LinkedIn
     - icon: fontawesome/brands/github
-      link: https://github.com/alexpryma
-  analytics:
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/thumb-up-outline
-          name: This page was helpful
-        - icon: material/thumb-down-outline
-          name: This page could be improved
+      link: https://github.com/lostmedocule
 
 copyright: Copyright © 2025 Alex Pryma • Zürich, Switzerland
