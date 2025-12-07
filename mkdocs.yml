@@ -1,6 +1,6 @@
-site_name: Alex Pryma
-site_url: https://lostmedocule.github.io          # ← change to your real username or repo name
-site_author: Alex Pryma
+site_name: lostmed
+site_url: https://lostmed_blog.github.io          # ← change to your real username or repo name
+site_author: lostmed
 site_description: >-
   Azure AI & Copilot Studio Expert • Senior Business Analyst • Zürich
 
@@ -32,8 +32,8 @@ theme:
     repo: fontawesome/brands/github
   favicon: https://github.com/favicon.ico   # simple fallback
 
-repo_url: https://github.com/lostmedocule/lostmed_blog   # ← change to your real repo
-repo_name: lostmedocule/lostmed_blog
+repo_url: https://github.com/lostmedoulle/lostmed_blog   # ← change to your real repo
+repo_name: lostmedoulle/lostmed_blog
 edit_uri: edit/main/docs/
 
 nav:
@@ -67,8 +67,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/alexpryma   # ← change to your real LinkedIn
     - icon: fontawesome/brands/github
-      link: https://github.com/lostmedocule
+      link: https://github.com/lostmedoulle
 
-copyright: Copyright © 2025 Alex Pryma • Zürich, Switzerland
+copyright: Copyright © 2025 lostmedoulle • Zürich, Switzerland
