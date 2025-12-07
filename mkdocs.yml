@@ -24,8 +24,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-repo_url: https://github.com/lostmedocule/lostmed_blog
-repo_name: lostmedocule/lostmed_blog
+repo_url: https://github.com/lostmedoulle/lostmed_blog
+repo_name: lostmedoulle/lostmed_blog
 
 nav:
   - Home: index.md
