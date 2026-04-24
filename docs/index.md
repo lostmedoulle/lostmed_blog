@@ -1,4 +1,4 @@
-# Alex Pryma  
+# lostmedoulle  
 **Azure AI Architect • Copilot Studio Expert • Senior Business Analyst**  
 Zürich | 180–230k CHF | 950–1300 CHF/day consulting
 
@@ -11,4 +11,4 @@ I help Swiss enterprises replace Confluence/SharePoint chaos with production-gra
 
 → [See all case studies](/cases/onboarding-85.md) • [Download free templates](/tools/cost-calculator.md)
 
-[LinkedIn](https://linkedin.com/in/alexpryma) • Available immediately for consulting or permanent roles
+[LinkedIn](https://linkedin.com/in/) • Available immediately for consulting or permanent roles
